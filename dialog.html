@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sayfa 1</title>
+
+<meta name="viewport" content="width=device-width,initail-scale=1">
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+ <link rel="stylesheet" href="tema.css" />
+  <link rel="stylesheet" href="jquery.mobile.icons.min.css" />
+</head>
+<body>
+
+	<div data-role="page" id="anasayfa">
+    	<div data-role="header" data-position="fixed" data-theme="a">
+        	<h1>Ana Sayfa</h1>
+        </div>
+        <div data-role="content" >
+        
+        <a href="#left-panel" data-rel="dialog" data-role="button" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-bars" data-theme="a" data-transition="pop">Ayarlar</a>
+		<a href="#hakkinda" data-rel="dialog" data-role="button" data-theme="b" data-transition="slidedown">Hakkında</a>
+		
+		<br> Listeler<br>
+		
+		<ul data-role="listview" data-inset="true">
+			<li><a href="#hakkinda" data-transition="slide">Ders 1</a></li>
+			<li><a href="#">Ders 1</a></li>
+			<li><a href="#">Ders 1</a></li>
+			<li><a href="#">Ders 1</a></li>
+			<li><a href="#">Ders 1</a></li>
+			
+		
+		</ul>
+		
+        </div>
+		
+		<div data-role="panel" id="left-panel" data-theme="b">
+        <p>Left reveal panel.</p>
+        <a href="#" data-rel="close" class="ui-btn" data-icon="info" data-iconpos="notext"></a>
+    </div><!-- /panel -->
+        <div data-role="footer" data-position="fixed">
+        	Sayfa alt kısım
+        </div>
+    </div>
+	
+	
+	<div data-role="page" id="ayarlar">
+    	<div data-role="header" data-position="fixed" data-theme="a">
+        	<h1>Ayarlar</h1>
+        </div>
+        <div data-role="content" >
+        
+       Uygulama ayarları olacak
+		
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	Sayfa alt kısım
+        </div>
+    </div>
+
+	<div data-role="page" id="hakkinda">
+    	<div data-role="header" data-position="fixed" data-theme="a">
+        	<h1>Hakkında</h1>
+        </div>
+        <div data-role="content">
+        
+       Burada bizimle ilgili yazılar olacak.
+		
+        </div>
+        
+    </div>
+
+
+
+</body>
+</html>

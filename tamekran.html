@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Tam Ekran</title>
+
+<meta name="viewport" content="width=device-width,initail-scale=1">
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+	<div data-role="page" id="anasayfa">
+    	<div data-role="header" data-position="fixed" data-theme="a">
+        	<h1>Ana Sayfa</h1>
+        </div>
+        <div data-role="content" >
+        
+		
+		<a href="#tamekranfoto" data-role="button" data-inline="true"> 
+		<img src="col.jpg" width="100" height="100" />
+		</a>
+		
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	Sayfa alt kısım
+        </div>
+    </div>
+	
+		<div data-role="page" id="tamekranfoto">
+    	<div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Geri" 
+					data-fullscreen="true">
+        	<h1>Çöl Fotoğrafı</h1>
+        </div>
+        <div data-role="content" >
+        
+		<img src="col.jpg" width="100%" height="100%" /><br>
+		
+		
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	Sayfa alt kısım
+        </div>
+    </div>
+
+
+</body>
+</html>

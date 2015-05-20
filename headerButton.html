@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Header Butonlar</title>
+
+<meta name="viewport" content="width=device-width,initail-scale=1">
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+	<div data-role="page" id="anasayfa">
+    	<div data-role="header" data-position="fixed" data-theme="a">
+        	
+			<a href="#hakkinda" data-role="button" data-icon="info" data-iconpos="notext" class="ui-btn-right">&nbsp;</a>
+			<a href="#hakkinda" data-role="button" data-icon="home" data-iconpos="notext" style="margin-right:30px;" class="ui-btn-right">&nbsp;</a>
+			<a href="#hakkinda" data-role="button" data-icon="gear" data-iconpos="notext" style="margin-right:60px;" class="ui-btn-right">&nbsp;</a>
+			
+			<h1>Ana Sayfa</h1>
+        </div>
+        <div data-role="content" >
+        
+        <a href="#ayarlar" data-role="button" data-theme="a" data-transition="pop">Ayarlar</a>
+		<a href="#hakkinda" data-role="button" data-theme="b" data-transition="slidedown">Hakkında</a>
+		
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	Sayfa alt kısım
+        </div>
+    </div>
+	
+	
+	<div data-role="page" id="ayarlar">
+    	<div data-role="header" data-position="fixed" data-theme="a">
+        	<h1>Ayarlar</h1>
+        </div>
+        <div data-role="content" >
+        
+        <a href="" data-role="button" data-theme="b" data-rel="back">Geri</a>
+		<a href="#hakkinda" data-role="button" data-theme="b">Hakkında</a>
+		
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	Sayfa alt kısım
+        </div>
+    </div>
+
+	<div data-role="page" id="hakkinda">
+    	<div data-role="header" data-position="fixed" data-theme="a">
+        	<h1>Hakkında</h1>
+        </div>
+        <div data-role="content">
+        
+        <a href="" data-role="button" data-theme="b" data-rel="back">Geri</a>
+		<a href="#ayarlar" data-role="button" data-theme="b">Ayarlar</a>
+		
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	Sayfa alt kısım
+        </div>
+    </div>
+
+
+
+</body>
+</html>
